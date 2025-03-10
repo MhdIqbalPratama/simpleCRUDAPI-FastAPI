@@ -9,7 +9,7 @@ from router import router
 # Create FastAPI application
 app = FastAPI(
     title="User Management API",
-    description="API sederhana untuk manajem    en data pengguna dengan FastAPI dan Firebase",
+    description="API sederhana untuk manajemen data pengguna dengan FastAPI dan Firebase",
     version="1.0.0"
 )
 # Setup CORS
