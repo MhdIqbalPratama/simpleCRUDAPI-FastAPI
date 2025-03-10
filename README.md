@@ -50,8 +50,8 @@ fastapi-firebase-crud/
 1. Clone repository ini
 
 ```bash
-git clone https://github.com/username/fastapi-firebase-crud.git
-cd fastapi-firebase-crud
+git clone https://github.com/username/fastapi-firebase-crud.git](https://github.com/MhdIqbalPratama/simpleCRUDAPI-FastAPI.git
+cd simpleCRUDAPI-FastAPI
 ```
 
 2. Buat dan aktifkan virtual environment
