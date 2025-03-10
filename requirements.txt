@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+firebase-admin==6.2.0
+pydantic==2.3.0
+email-validator==2.0.0
+python-multipart==0.0.6
