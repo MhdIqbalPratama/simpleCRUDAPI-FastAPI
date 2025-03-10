@@ -35,16 +35,11 @@ def initialize_firebase():
     print("Starting Firebase initialization...")
     # Use the correct file path
     cred_path = os.environ.get("db_path")
-    # cred_path = os.environ.get("FIREBASE_CREDENTIALS_PATH", 
-        # "C:\\Users\\LENOVO\\Documents\\Iqbal\\simpleCRUDFastAPI\\simplecrudfastapi-firebase-adminsdk-fbsvc-4393ab9fae.json")
     
     print(f"Using credentials path: {cred_path}")
     print(f"File exists: {os.path.exists(cred_path)}")
     # Make sure credentials path is correctly specified
     if not firebase_admin._apps:
-        # Gunakan variabel lingkungan atau file lokal
-        # cred_path = os.environ.get("FIREBASE_CREDENTIALS_PATH", r"C:\Users\LENOVO\Documents\Iqbal\simpleCRUDFastAPI\simplecrudfastapi-firebase-adminsdk-fbsvc-666d6c081f.json")
-        # cred_path = os.environ.get("FIREBASE_CREDENTIALS_PATH", "C:\\Users\\LENOVO\\Documents\\Iqbal\\simpleCRUDFastAPI\\simplecrudfastapi-firebase-adminsdk-fbsvc-666d6c081f.json")
         
         # Inisialisasi Firebase app
         cred = credentials.Certificate(cred_path)
